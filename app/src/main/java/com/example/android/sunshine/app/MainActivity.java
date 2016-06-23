@@ -62,7 +62,7 @@ public class MainActivity extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            // Dummy data for listview
+            // Dummy data for listView
             String[] forecastArray = {
                     "Monday - Ugleh",
                     "Tuesday - Stoopit",
@@ -72,6 +72,7 @@ public class MainActivity extends ActionBarActivity {
                     "Saturday - Mando",
                     "Sunday - Kanch"
             };
+
             List<String> weekForecast = new ArrayList<String>(Arrays.asList(forecastArray));
             mForecastAdapter = new ArrayAdapter<String>(
                 getActivity(),
